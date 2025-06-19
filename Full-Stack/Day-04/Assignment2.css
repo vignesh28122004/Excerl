@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #181818;
+    border-bottom: 1px solid #eee;
+}
+
+.top-header-left {
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+
+.top-header-right {
+    font-size: 14px;
+    color: white;
+}
+i{
+    margin: 1em;
+}
+
+.secondheader2{
+    display: flex;
+    background-color: rgb(219, 236, 157);
+
+}
+
+nav ul{
+    display: flex;
+    gap: 10em;
+    margin-left:30%;
+
+}
+.title{
+    margin-left: 25px;
+}
+
+nav{
+    padding: 0.5em;
+}
+
+header  .icons i{
+    gap:2em
+}

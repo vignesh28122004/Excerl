@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body {
+  background: #e5f1f8;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #0d0d0d;
+}
+.logoimg img{
+    width: 30.5px;
+    height: 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  color: rgb(240, 168, 168);
+  text-decoration: none;
+}
+
+.signin-btn {
+  background: #ff4d6d;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h4 {
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: rgb(16, 15, 15);
+  text-decoration: underline;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+}
+
+.search-box input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.price {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #00aaff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.discount {
+  position: absolute;
+  bottom: 10px;
+  left: -20px;
+  background: #ff4d6d;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: white;
+  color: black;
+  
+}
+
+.feature-box {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+}
+
+#section1{
+    background-color: #00aaff;
+    height: 500px;
+}
+
+.section2{
+
+}

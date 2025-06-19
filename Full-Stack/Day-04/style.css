@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+h1{
+    color: #fd0808;
+    text-align: center;
+}
+p{
+    text-align: ;
+}
+header,main,footer,section,nav,article,aside{
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 1em;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+main article figure{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+main{
+    display: flex;
+}
+
+
+article{
+    flex: 2;/*it is equal to flex-grow: 2; flex-shrink: 1; flex-basis: 0%; */
+   
+}
+
+figcaption{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+aside{
+    flex: 1;
+}

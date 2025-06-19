@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+        <style>
+            table{
+                width: 60%;
+                margin: 20px auto;
+            border-collapse: collapse;
+            }
+
+            th,td{
+                border: 1px solid black;
+                text-align: center;
+                padding: 20px;
+                
+            }
+
+            th{
+                background-color: rgb(165, 192, 194);
+            }
+            tr:nth-child(1){
+                background-color: yellow;
+            }
+            tr:nth-child(2){
+                background-color: blueviolet;
+            }
+            tr:nth-child(odd){
+                background-color: cadetblue;
+            }
+            tr:nth-child(4){
+                background-color: blueviolet;
+            }
+        </style>
+
+</head>
+<body>
+    <table>
+        <caption>Weekly Work Schedule</caption>
+        <thead>
+            <th>Department</th>
+            <th>Employee Name</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thrusday</th>
+            <th>Friday</th>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td rowspan="2">IT</td>
+            <td>Alice</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-3</td>
+            </tr>
+            
+            <tr>
+                <td>Bob</td>
+                <td>10-6</td>
+                <td>10-6</td>
+                <td>10-6</td>
+                <td>10-6</td>
+                <td>10-4</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">HR</td>
+                <td>Carol</td>
+                <td>8-4</td>
+                <td>8-4</td>
+                <td>8-4</td>
+                <td>8-4</td>
+                <td>8-4</td>
+            </tr>
+            
+            <tr>
+                <td>Dave</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th colspan="7">Total Employees: 4(2in IT,2 in HR)</th>
+        </tfoot>
+    </table>
+</body>
+</html>

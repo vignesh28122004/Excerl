@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+       
+        table{
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            
+        }
+
+        th,td{
+            border:1px solid black;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        caption{
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        th{
+            background-color: blanchedalmond;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Exams Scores</caption>
+        
+        <thead>
+
+            <tr>
+                <th>Student Name</th>
+                <th>Subjects</th>
+                <th>Marks</th>
+                
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Anil</td>
+                <td>Maths</td>
+                <td>60</td>
+            </tr>
+
+            <tr>
+                <td>CSE</td>
+                <td>50</td>
+                
+                
+            </tr>
+
+            <tr>
+                <td rowspan="2">Vikram</td>
+                <td>cse</td>
+                <td>60</td>
+               
+            </tr>
+
+            <tr>
+                <td>Maths</td>
+                <td>60</td>
+               
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th colspan="2">Average Marks (for all student)</th>
+        </tfoot>
+        
+    </table>
+</body>
+</html>

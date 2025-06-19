@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .z-box{
+            width:100px;
+            height:100px;
+            position: absolute;
+            /*top: 200px;
+            left: 200px;*/
+            color: white;
+            text-align: center;
+            line-height: 100px;
+        }
+        .z1{
+            background: rebeccapurple;
+            top: 100px;
+            left: 100px;
+            z-index:3;
+        }
+        .z2{
+            background: rgb(40, 40, 203);
+            top: 140px;
+            left: 140px;
+            z-index: 2;
+           /* top: 220px;
+            left: 220px;
+            right: 220px; */
+        }
+        .z3{
+            background:darkred;
+            top: 180px;
+            left: 180px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="z-box z1">box 1</div>
+    <div class="z-box z2">box 2</div>
+    <div class="z-box z3">box 3</div>
+    
+</body>
+</html>
