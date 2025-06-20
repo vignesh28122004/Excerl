@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: rgb(45, 38, 38);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.card{
+    background-color: rgb(152, 155, 107);
+    padding: 50px;
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 20px; rgba(0,0,0,0.2);
+    transform: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;   
+    transform: transform.1s ease; 
+
+}
+
+.card:hover{
+    /* transform:scale(1.05) rotateZ(1deg);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3); */
+
+    /* transform: translateY(-10px); */
+    /* transform: translateY(-20px);
+    transform: translateX(); */
+    /* transform: translate(20px,20px); */
+
+    transform: scale(1.1,1.1);
+    /* transform: rotate(360deg); */
+
+}
+
+h3{
+    text-align: center;
+    
+}

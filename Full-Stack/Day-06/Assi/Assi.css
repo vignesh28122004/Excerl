@@ -1,0 +1,22 @@
+*{
+      font-family: 'Poppins', sans-serif;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+
+
+}
+
+body {
+  background: #f5f5f4;
+  color: white;
+  background-image: url("https://img.freepik.com/premium-photo/website-ui-design-nft-marketplace-esports-gaming-streamin-generative-ai_791316-4515.jpg");
+  background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
